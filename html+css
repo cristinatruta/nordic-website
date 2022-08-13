@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<header>
+  <div class="container">
+    <h1 class="logo"></h1>
+    <nav class="navbar">
+<div class="nav">
+    <img src="logo-header.svg" class="brand-logo" alt="">
+    <div class="nav-items">
+        <div class="search">
+            <input type="text" class="search-box" placeholder="search brand, product">
+            <button class="search-btn">search</button>
+        </div>
+        <a href="#"><img src="img/user.png" alt=""></a>
+        <a href="#"><img src="img/cart.png" alt=""></a>
+    </div>
+</div>
+</nav>
+
+    <nav>
+      <ul>
+        <li><a href="#">logo</a><img src = "" alt=""/></li>
+        <li><a href="#">Phasellus</a></li>
+        <li><a href="#">Donec</a></li>
+        <li><a href="#">Maximus</a></li>
+        <li><a href="#">Scelerisque</a></li>
+        <li><a href="#">Nunc</a></li>
+      </ul>
+    </nav>
+  </div>
+  <body>
+
+  </body>
+  
+ <section1> <div class="box">
+  <h3>Donec ultrices est iaculis egestas </h3>
+  <p>Fusce mattis, odio eget efficitur lacinia, tellus odio ornare metus, id aliquam quam nulla id tortor.</p>
+  </div>
+  </section1>
+</header>
+<style>
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+@import 'nav.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+section1{
+
+position: absolute;
+width: 1980px;
+height: 600px;
+left: 0px;
+top: 192px;
+
+}
+
+.box{
+background-image:url(https://frontendcris.w3spaces.com/a23ee070-0c8d-4a3d-a30a-702b0b46fac1.png?bypass-cache=38635234);
+height: 4292px;
+width: 2863px;
+left: -882px;
+top: -1195px;
+border-radius: 0px;
+background-repeat:no-repeat;
+font-family: Archivo;
+font-size: 51px;
+font-weight: 900;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+
+
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #FFFFFF;
+    z-index: 9;
+}
+
+.nav{
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+}
+
+.brand-logo{
+    height: 60px;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    width: 500px;
+    display: flex;
+}
+
+.search-box{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #d1d1d1;
+    text-transform: capitalize;
+    background: none;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.search-btn{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #383838;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.search-box::placeholder{
+    color: #a9a9a9;
+}
+
+.nav-items a{
+    margin-left: 20px;
+}
+
+.nav-items a img{
+    width: 30px;
+}
+h3{
+
+font-family: Archivo;
+font-size: 51px;
+font-weight: 900;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+p{
+font-family: Hind Madurai;
+font-size: 28px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+
+width: 599px;
+height: 105px;
+
+font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 35px;
+/* or 125% */
+
+
+/* Primary / Navy Dark */
+
+color: #072048;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+font-family: Hind Madurai;
+font-size: 28px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+body {
+  margin: 0;
+  background: #222;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: #FFFFFF;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #FFFFFF;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+</style>
+
+</body>
+</html>
